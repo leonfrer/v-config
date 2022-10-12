@@ -1,4 +1,4 @@
 name: Economist crack
 http:
   url-rewrite:
-    - ^https?://[^/]+\.piano.io/?.* - reject
+    - ^https?://[^/]+\.piano\.io/?.* - reject
