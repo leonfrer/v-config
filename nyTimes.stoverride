@@ -1,4 +1,5 @@
 name: New York Times Web Crack
 http:
   url-rewrite:
-    - "^https://meter-svc\\.nytimes\\.com/meter\\.js - reject"
+    # - "^https://meter-svc\\.nytimes\\.com/meter\\.js - reject"
+    - ^https?://www\.google\.cn https://www.google.com 302
