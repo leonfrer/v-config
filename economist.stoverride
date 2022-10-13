@@ -1,4 +1,3 @@
 name: Economist crack
-http:
-  url-rewrite:
-    - ^https?://[^/]+\.piano\.io/?.* - reject
+rules:
+  - DOMAIN-SUFFIX,piano.io,REJECT
