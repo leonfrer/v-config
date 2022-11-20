@@ -5,4 +5,4 @@ http:
   mitm:
     - "samizdat-graphql.nytimes.com"
   rewrite:
-    - ^https?:\/\/samizdat-graphql\.nytimes\.com\/graphql\/v2 - reject
+    - ^https:\/\/samizdat-graphql\.nytimes\.([a-zA-Z]+(\/[a-zA-Z]+)+)2/i - reject
