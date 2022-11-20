@@ -1,3 +1,8 @@
 name: new york times crack
-rules:
-  - DOMAIN-SUFFIX,samizdat-graphql.nytimes.com,REJECT
+#rules:
+#  - DOMAIN-SUFFIX,samizdat-graphql.nytimes.com,REJECT
+http:
+  mitm:
+    - "samizdat-graphql.nytimes.com"
+  rewrite:
+    - ^https?:\/\/samizdat-graphql\.nytimes\.com\/graphql\/v2 - reject
