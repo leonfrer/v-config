@@ -1,4 +1,4 @@
 name: new york times crack
 
 rules:
-  - DOMAIN-SUFFIX,samizdat-graphql.nytimes.com,REJECTject
+  - DOMAIN-SUFFIX,samizdat-graphql.nytimes.com,REJECT
